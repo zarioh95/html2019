@@ -1,0 +1,110 @@
+
+
+body{
+
+    /*display:inline-block;*/
+    /* background-color:#bcdbda;*/
+    /* background: linear-gradient(to bottom, #33ccff 0%, #99ff99 100%);*/
+    font-family: "Trattatello", fantasy, sans-serif;
+    font-size:2em;
+    display: flex;
+
+    /* max-width: 1000px;*/
+    /*  margin:2em;*/
+    /*border:3px black dotted;*/
+    padding:.5em;
+
+}
+
+li{color:#d8c318;}
+img{
+    border:10px #07e3ec solid;
+    border-radius: .2em;
+
+}
+
+h3{
+    /* background-color:#07e3ec;
+     color:white;*/
+    width:12em;
+    /*text-align: right;*/
+    border-bottom: #07e3ec 2px solid;
+    border-radius:0 0 2em 0;
+    color:#0c4de4;
+    /* padding-right: 2em;
+    border-left: none;*/
+}
+h3.hh:hover{
+    color:#e4d713 ;
+    border-width:3px;  
+    border-bottom-style:double;
+    border-radius:50px;
+    /*font-size:30px;*/
+}
+
+h1{
+    /*background-image: url("image/lionceaux.jpg");   
+    background-position: center; 
+    background-repeat: no-repeat;*/
+    /*  margin:1em;*/
+    font-family: "Trattatello", fantasy, sans-serif;
+    font-size: 2em; 
+    /* text-align: right;*/
+    left:0;   
+    top:0;
+    color:#cac576;
+
+}
+ul{
+    list-style-type:none;
+}
+section{
+    width:79%;
+    pading-left:.5em;
+    color:#0c4de4;
+
+}
+aside{
+    width:45%;
+
+    /*background-color:grey;*/
+    background:url(image/dbz.jpg)no-repeat;
+    background-size:100%;
+
+}
+div{
+    background: url(image/black.jpg)no-repeat;
+    background-size:100%;
+}
+article{
+    display: flex;   
+
+}
+figure{
+    text-align: right;
+    postion:absolut;
+    right:0;   
+    top:0;
+}
+/* Media querries for mobil < 1024 px */
+@media only screen and (max-width: 1024px) {
+    aside{
+        display:none;
+    }
+    article{
+        flex-direction: column;
+    }
+    
+
+}  
+/* Media querries for mobil < 1024 px */
+@media only screen and (max-width: 800px) {
+    figure{
+        display:none;
+    }
+    body{
+        font-size:1.2em;
+    }
+    
+
+}  
